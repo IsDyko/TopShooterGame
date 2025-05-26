@@ -1,0 +1,15 @@
+root = true
+
+# Pour tous les fichiers C#
+[*.cs]
+indent_style = tab
+indent_size = tab
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# Pour tous les autres fichiers texte
+[*.{json,js,ts,css,html}]
+indent_style = space
+indent_size = 2
